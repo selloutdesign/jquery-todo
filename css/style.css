@@ -1,6 +1,14 @@
-
+h1,p,ul,li{
+	font-family: 'Josefin Slab', serif;
+}
 h1{
 	color: white;
+	font-size:3em;
+	padding-bottom: 0;
+	margin-bottom: 5px;
+}
+li{
+	font-size: 1.5em;
 }
 hr{
 	width: 70%;
@@ -55,7 +63,7 @@ input{
 }
 
 .add-this i{
-	margin-top: 11px
+	margin-top: 12px
 }
 
 .delete{
@@ -70,7 +78,8 @@ input{
 }
 
 .delete i {
-	margin-top:11px;
+	margin-top:7px;
+	margin-left:1px;
 }
 
 #todo{
@@ -90,7 +99,7 @@ input{
 	max-width: 80%;
 	display: inline-block;
 	float: left;
-	margin-top:.7em;
+	margin-top:.5em;
 	margin-left: 1em;
 }
 
