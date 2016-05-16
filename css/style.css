@@ -1,0 +1,107 @@
+
+h1{
+	color: white;
+}
+hr{
+	width: 70%;
+}
+ul{
+	list-style-type: none;
+}
+header img{
+	max-width: 100%;
+}
+
+.container{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bf2e92+24,bf2e92+24,d37f8c+60,d37f8c+60,d37f8c+75,fbeb42+100 */
+	background: #bf2e92; /* Old browsers */
+	background: -moz-linear-gradient(top,  #bf2e92 24%, #bf2e92 24%, #d37f8c 60%, #d37f8c 60%, #d37f8c 75%, #fbeb42 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #bf2e92 24%,#bf2e92 24%,#d37f8c 60%,#d37f8c 60%,#d37f8c 75%,#fbeb42 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #bf2e92 24%,#bf2e92 24%,#d37f8c 60%,#d37f8c 60%,#d37f8c 75%,#fbeb42 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf2e92', endColorstr='#fbeb42',GradientType=0 ); /* IE6-9 */
+	max-width: 650px;
+	margin: 0 auto;
+	height:100vh;
+	text-align: center;
+}
+.input-wrapper{
+	width: 70%;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+input{
+	background: #000;
+    background: rgba(0,0,0,0.16);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3) inset, 0 1px rgba(255, 255, 255, 0.06);
+    border: 0 none;
+    border-radius: 5px;
+    color: #BBBBBB;
+    transition: background .2s;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    width: 80%;
+}
+
+.add-this{
+	float: right;
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	border: 1px solid white;
+	text-align: center;
+	color:white;
+}
+
+.add-this i{
+	margin-top: 11px
+}
+
+.delete{
+	float:left;
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	border: 1px solid white;
+	text-align: center;
+	color:white;
+}
+
+.delete i {
+	margin-top:11px;
+}
+
+#todo{
+	min-height: 20px;
+	width: 80%;
+	margin:0 auto;
+}
+#nottodo{
+	min-height: 20px;
+	width: 80%;
+	margin:0 auto;
+}
+
+.item{
+	color:white;
+	text-align: left;
+	max-width: 80%;
+	display: inline-block;
+	float: left;
+	margin-top:.7em;
+	margin-left: 1em;
+}
+
+#nottodo .item{
+	text-decoration: line-through;
+}
+ul li{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+
