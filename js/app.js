@@ -1,5 +1,5 @@
 $(document).ready(function() {
-		var $ul = $('ul');
+		var $ul = $('#todo');
 		
 		$('#save').click( function(){
 			localStorage.setItem('list', $ul.html());
