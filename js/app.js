@@ -1,17 +1,23 @@
 $(document).ready(function() {
 		var $ul = $('#todo');
+		var $not = $('#nottodo');
 		
 		$('#save').click( function(){
 			localStorage.setItem('list', $ul.html());
+			localStorage.setItem('list2', $not.html());
 		});
 		
 		$('#clear').click( function(){
 			localStorage.clear('list');
+			localStorage.clear('list2');
 			location.reload();
 		});
 		
 		if(localStorage.getItem('list')){
 			$ul.html(localStorage.getItem('list'));
+		}
+		if(localStorage.getItem('list2')){
+			$ul.html(localStorage.getItem('list2'));
 		}
 
 
