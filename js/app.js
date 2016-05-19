@@ -17,7 +17,7 @@ $(document).ready(function() {
 			$ul.html(localStorage.getItem('list'));
 		}
 		if(localStorage.getItem('list2')){
-			$ul.html(localStorage.getItem('list2'));
+			$not.html(localStorage.getItem('list2'));
 		}
 
 
