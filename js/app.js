@@ -1,18 +1,18 @@
 $(document).ready(function() {
-	var $ul = $('#todo');
-	
-	$('#save').click( function(){
-		localStorage.setItem('list', $ul.html());
-	});
+		var $ul = $('ul');
 		
-	$('#clear').click( function(){
-		localStorage.clear('list');
-		location.reload();
-	});
-	
-	if(localStorage.getItem('list')){
-		$ul.html(localStorage.getItem('list'));
-	}
+		$('#save').click( function(){
+			localStorage.setItem('list', $ul.html());
+		});
+		
+		$('#clear').click( function(){
+			localStorage.clear('list');
+			location.reload();
+		});
+		
+		if(localStorage.getItem('list')){
+			$ul.html(localStorage.getItem('list'));
+		}
 
 
 
